@@ -173,7 +173,7 @@ const displayLesson = (lessons) => {
     const btnDiv = document.createElement("div");
     btnDiv.innerHTML = `
                  <button id="lesson-btn-${lesson.level_no}" onclick="loadLevelWord(${lesson.level_no})"  class="btn btn-outline btn-primary lesson-btn">
-                 <i class="fa-solid fa-book-open"></i> Lesson - ${lesson.level_no}
+                 <img src="./assets/fa-book-open.png" alt=""> Lesson - ${lesson.level_no}
                   </button>
     `;
 
